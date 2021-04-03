@@ -12,6 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "koa": "^2.13.1",
+    "koa-core": "^1.0.8",
+    "koa-cors": "0.0.16",
     "koa-router": "^10.0.0"
   }
 }

@@ -11,7 +11,7 @@ const router = new Router()
     / => /home
 */ 
 router.get('/',async (ctx) => {
-  ctx.set('Access-Control-Allow-Origin','*')
+  // ctx.set('Access-Control-Allow-Origin','*')
   ctx.body = 'Home 页'
 })
 

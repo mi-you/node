@@ -11,15 +11,12 @@ const router = new Router()
     /1 => /list/1
 */ 
 router.get('/',async (ctx) => {
-  ctx.set('Access-Control-Allow-Origin','*')
   ctx.body = '列表页'
 })
 router.get('/1',async (ctx) => {
-  ctx.set('Access-Control-Allow-Origin','*')
   ctx.body = '列表页1'
 })
 router.get('/2',async (ctx) => {
-  ctx.set('Access-Control-Allow-Origin','*')
   ctx.body = '列表页2'
 })
 

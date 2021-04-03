@@ -1,8 +1,12 @@
 const Koa = require('koa')
+const cors = require('koa-cors')
 const router = require('./router')
 const app = new Koa();
 
-
+/*
+  解决跨域，或者通过设置Access-Control-Allow-Origin
+*/ 
+app.use(cors())
 /*
   调用路由中间件
   router.routes():启动路由

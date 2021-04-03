@@ -5,6 +5,10 @@ npm i koa -S
 ```
 ## 安装路由
 ```
-npm i koa-router
+npm i koa-router -S
+```
+## 解决跨域
+```
+npm i koa-core -S
 ```
 ## mysql 之后的 有空再学习
